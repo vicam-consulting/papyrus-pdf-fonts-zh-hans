@@ -1,0 +1,29 @@
+{
+    "name": "vicam/papyrus-pdf-fonts-zh-hans",
+    "description": "Static Noto Sans and Serif SC Regular for PapyrusPDF forms and overlays.",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.3",
+        "vicam/papyrus-pdf": "^0.3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PapyrusPDF\\FontsZhHans\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PapyrusPDF\\FontsZhHans\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
